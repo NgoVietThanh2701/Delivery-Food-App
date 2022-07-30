@@ -36,6 +36,8 @@ class Dimensions {
 
   // popular food
   static double popularFoodImgSize = screenHeight / (_heightDeviceDesign / 360);
+  static double recommendedFoodImgSize =
+      screenHeight / (_heightDeviceDesign / 300);
 
   //bottom height
   static double bottomHeightBar = screenHeight / (_heightDeviceDesign / 120);
